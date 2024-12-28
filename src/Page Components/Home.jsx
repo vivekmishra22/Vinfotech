@@ -18,7 +18,7 @@ const Home = () => {
                 <Carousel.Item>
                     <Image src={image2} fluid style={{ width: '100%', height: '90vh', objectFit: 'cover' }}  />
                     <Carousel.Caption>
-                        <h3>COding Courses</h3>
+                        <h3>Coding Courses</h3>
                         <p>Training Programs</p>
                     </Carousel.Caption>
                 </Carousel.Item>

@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <Container fluid>
         <Row className="p-5 bg-dark">
-          <Col md={4} className="text-white">
+          <Col md={4} className="text-light">
             <h5>Our Missions</h5>
             <p>
               Our mission is to develop a skilled IT workforce in India,
@@ -20,8 +20,8 @@ const Footer = () => {
           </Col>
 
           <Col md={3}>
-            <ul className=" list-unstyled text-white">
-              <h5 className="text-white">Quick Links</h5>
+            <ul className=" list-unstyled text-light">
+              <h5 className="text-light">Quick Links</h5>
               <li className="d-flex align-items-center">
                 <FaBullseye className="fs-6 me-1" />
                 <span>Our Courses</span>
@@ -42,7 +42,7 @@ const Footer = () => {
           </Col>
 
           <Col md={3}>
-            <ul className=" list-unstyled text-white">
+            <ul className=" list-unstyled text-light">
               <h5>Courses</h5>
               <li className="d-flex align-items-center">
                 <FaBullseye className="fs-6 me-1" />
@@ -64,11 +64,11 @@ const Footer = () => {
           </Col>
 
           <Col md={2}>
-            <ul className="list-unstyled text-white">
-              <h5 className="text-white">Follow Us</h5>
+            <ul className="list-unstyled text-light">
+              <h5 className="text-light">Follow Us</h5>
               <li>
                 <a
-                  className="text-decoration-none d-flex align-items-center text-white"
+                  className="text-decoration-none d-flex align-items-center text-light"
                   href="/"
                 >
                   <BsFacebook className="me-1" />
@@ -77,7 +77,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  className="text-decoration-none d-flex align-items-center text-white"
+                  className="text-decoration-none d-flex align-items-center text-light"
                   href="/"
                 >
                   <FaSquareInstagram className="me-1" />
@@ -86,7 +86,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  className="text-decoration-none d-flex align-items-center text-white"
+                  className="text-decoration-none d-flex align-items-center text-light"
                   href="/"
                 >
                   <FaLinkedin className="me-1" />
@@ -95,7 +95,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  className="text-decoration-none d-flex align-items-center text-white"
+                  className="text-decoration-none d-flex align-items-center text-light"
                   href="/"
                 >
                   <FaYoutube className="me-1" />
