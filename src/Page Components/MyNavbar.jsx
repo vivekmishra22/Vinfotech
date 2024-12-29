@@ -13,15 +13,15 @@ const MyNavbar = () => {
           <Nav className="m-auto">
             <Nav.Link href="#home"><Link to="/home" className='text-light fs-6 text-decoration-none'>Home</Link></Nav.Link>
             <NavDropdown title={ <span className='text-light'>Courses</span>} id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1"><Link to="/mern" className='text-secondary fs-6 text-decoration-none'>MERN Stack Development</Link></NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">MEAN Stack Development</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Full Stack Development in Java</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Full Stack Development in PHP</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.5">Python / Django Development</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.6">Data Science</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.7">AI and ML</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1"><Link to="/mern" className='fs-6 text-decoration-none'>MERN Stack Development</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" className='fs-6 text-decoration-none'>MEAN Stack Development</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" className='fs-6 text-decoration-none'>Full Stack Development in Java</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4" className='fs-6 text-decoration-none'>Full Stack Development in PHP</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.5" className='fs-6 text-decoration-none'>Python / Django Development</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.6" className='fs-6 text-decoration-none'>Data Science</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.7" className='fs-6 text-decoration-none'>AI and ML</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">About us</Nav.Link>
+            <Nav.Link href="#link" className='text-light'>About us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
