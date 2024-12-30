@@ -20,10 +20,10 @@ const MERN = () => {
                             <Card.Img
                                 variant="top"
                                 src={Image4}
-                                style={{ objectFit: "cover", height: "300px", width: "100%" }}
+                                style={{ height: "300px", width: "100%" }}
                             />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>HTML</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up
                                     the bulk of the card's content.
@@ -37,10 +37,10 @@ const MERN = () => {
                             <Card.Img
                                 variant="top"
                                 src={Image1}
-                                style={{ objectFit: "cover", height: "300px", width: "100%" }}
+                                style={{ height: "300px", width: "100%" }}
                             />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                           <Card.Body>
+                                <Card.Title>MongoDB</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up
                                     the bulk of the card's content.
@@ -54,10 +54,10 @@ const MERN = () => {
                             <Card.Img
                                 variant="top"
                                 src={Image2}
-                                style={{ objectFit: "cover", height: "300px", width: "100%" }}
+                                style={{ height: "300px", width: "100%" }}
                             />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Node and Express Js</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up
                                     the bulk of the card's content.
@@ -71,10 +71,10 @@ const MERN = () => {
                             <Card.Img
                                 variant="top"
                                 src={Image3}
-                                style={{ objectFit: "cover", height: "300px", width: "100%" }}
+                                style={{ height: "300px", width: "100%" }}
                             />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>React</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up
                                     the bulk of the card's content.
