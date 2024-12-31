@@ -21,7 +21,7 @@ const MyNavbar = () => {
               <NavDropdown.Item href="#action/3.6" className='fs-6 text-decoration-none'>Data Science</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.7" className='fs-6 text-decoration-none'>AI and ML</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link" className='text-light'>About us</Nav.Link>
+            <Nav.Link href="#link" className='text-light'><Link to="/about" className='fs-6 text-decoration-none'>About us</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
