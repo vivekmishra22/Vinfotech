@@ -12,7 +12,7 @@ const MERN = () => {
             <Container>
                 <Row className="my-4 justify-content-center">
                     <h2 className="text-danger-emphasis text-center mb-4">
-                        MEAN Stack Development Notes
+                        MERN Stack Development Notes
                     </h2>
                     <hr />
                     <Col xs={12} sm={6} md={4} lg={3} className="mb-4">

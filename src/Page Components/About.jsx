@@ -22,10 +22,10 @@ const About = () => {
     return (
         <>
             <Container>
-                <Row>
+                <Row className='my-4'>
                     {userData.map((Register, id) => {
                         return (
-                            <Col md={3}>
+                            <Col md={3} className='my-4'>
                                 <Card style={{ width: '18rem' }}>
                                     <Card.Body>
                                         <Card.Title>{Register.fname}</Card.Title>
