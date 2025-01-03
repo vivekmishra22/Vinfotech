@@ -1,15 +1,63 @@
-import React from 'react';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
-import Image1 from '../Assets/Images/MongoDB.webp';
-import Image2 from '../Assets/Images/Node and Express Js.webp';
-import Image3 from '../Assets/Images/React.webp';
-import Image4 from '../Assets/Images/Html.webp';
+import React, { useEffect, useState } from 'react';
+import { Card, Col, Container, Row } from 'react-bootstrap';
+// import Image1 from '../Assets/Images/MongoDB.webp';
+import axios from 'axios';
+import Image from '../Assets/Images/Notes.webp'
+// import Image2 from '../Assets/Images/Node and Express Js.webp';
+// import Image3 from '../Assets/Images/React.webp';
+// import Image4 from '../Assets/Images/Html.webp';
 
 const MERN = () => {
+
+    const [userData, setUserData] = useState([])
+
+    useEffect(() => {
+        showUsers()
+    }, [])
+
+    const showUsers = () => {
+        axios.get(`http://localhost:8000/getdata`)
+            .then(res => {
+                setUserData(res.data.data)
+            }).catch(err => {
+                console.log(err);
+            })
+    }
+
     return (
         <>
 
             <Container>
+                <Row className="my-4 justify-content-center">
+                    <h2 className="text-danger-emphasis text-center mb-4">
+                        MERN Stack Development Notes
+                    </h2>
+                    <hr />
+                    {userData.map((Course, id) => {
+                        return (
+
+                            <Col xs={12} sm={6} md={4} lg={3} className="mb-4">
+                                <Card>
+                                    <Card.Img
+                                        variant="top"
+                                        src={Image}
+                                        style={{ height: "300px", width: "100%" }}
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>{Course.ctitle}</Card.Title>
+                                        <Card.Text>
+                                            {Course.ctext}
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        )
+                    })}
+                </Row>
+            </Container>
+
+
+            {/* <Container>
                 <Row className="my-4 justify-content-center">
                     <h2 className="text-danger-emphasis text-center mb-4">
                         MERN Stack Development Notes
@@ -84,7 +132,7 @@ const MERN = () => {
                         </Card>
                     </Col>
                 </Row>
-            </Container>
+            </Container> */}
 
             {/* <Container>
                 <Row className='my-4 justify-content-center'>
