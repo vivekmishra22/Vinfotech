@@ -32,12 +32,12 @@ const MERN = () => {
                     <h2 className="text-danger-emphasis text-center mb-4">
                         MERN Stack Development Notes
                     </h2>
-                    <hr />
+                    {/* <hr /> */}
                     {userData.map((Course, id) => {
                         return (
 
                             <Col xs={12} sm={6} md={4} lg={3} className="mb-4">
-                                <Card>
+                                <Card className=''>
                                     <Card.Img
                                         variant="top"
                                         src={Image}
