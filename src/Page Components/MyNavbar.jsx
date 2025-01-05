@@ -32,7 +32,7 @@ const MyNavbar = () => {
             </Button>
           </Nav> */}
 
-          <Nav>
+          <Nav className='ms-auto'>
             <Button variant="primary" className='me-2'>
               <Link className='text-decoration-none text-light'>Register</Link>
             </Button>
