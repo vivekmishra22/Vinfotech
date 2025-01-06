@@ -10,7 +10,7 @@ const MyNavbar = () => {
         <Navbar.Brand className='d-flex align-items-center' href="#home"><FaLaptopCode className="me-2" /> VInfotech</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="m-auto">
+          <Nav className="mx-auto">
             <Nav.Link href="#home"><Link to="/home" className='text-light fs-6 text-decoration-none'>Home</Link></Nav.Link>
             <NavDropdown title={ <span className='text-light'>Courses</span>} id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1"><Link to="/mern" className='fs-6 text-decoration-none'>MERN Stack Development</Link></NavDropdown.Item>
