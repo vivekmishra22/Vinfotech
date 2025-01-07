@@ -23,23 +23,14 @@ const MyNavbar = () => {
             </NavDropdown>
             <Nav.Link href="#link" ><Link to="/about" className='fs-6 text-decoration-none text-light'>About us</Link></Nav.Link>
           </Nav>
-          {/* <Nav className="ms-auto">
-            <Button variant="outline-light" className="me-2">
-              <Link to="/register" className='text-decoration-none text-light'>Register</Link>
-            </Button>
-            <Button variant="light">
-              <Link to="/login" className='text-decoration-none text-dark'>Login</Link>
-            </Button>
-          </Nav> */}
+          
 
-          <Nav className='ms-auto'>
             <Button variant="primary" className='me-2'>
-              <Link className='text-decoration-none text-light'>Register</Link>
+              <Link to="/register" className='text-decoration-none text-light'>Register</Link>
             </Button>
             <Button variant="success">
               <Link className='text-decoration-none text-light'>Log In</Link>
             </Button>
-          </Nav>
         </Navbar.Collapse>
 
             {/* <Nav.Link href="#link" ><Link to="/about" className='fs-6 text-decoration-none text-light'>Register</Link></Nav.Link> */}
