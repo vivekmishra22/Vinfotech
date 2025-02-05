@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 // import Image1 from '../Assets/Images/MongoDB.webp';
 import axios from 'axios';
-import Image from '../Assets/Images/Notes.webp'
+// import Image from '../Assets/Images/Notes.webp';
 // import Image2 from '../Assets/Images/Node and Express Js.webp';
 // import Image3 from '../Assets/Images/React.webp';
 // import Image4 from '../Assets/Images/Html.webp';
@@ -40,7 +40,7 @@ const MERN = () => {
                                 <Card className=''>
                                     <Card.Img
                                         variant="top"
-                                        src={Image}
+                                        src={`http://localhost:8000/images/${Course.image}`}
                                         style={{ height: "300px", width: "100%" }}
                                     />
                                     <Card.Body>
